@@ -39,4 +39,8 @@ public class ProductDTO {
     public Double getPrice() {
         return price;
     }
+
+    public List<CategoryDTO> getCategories() {
+        return categories;
+    }
 }
