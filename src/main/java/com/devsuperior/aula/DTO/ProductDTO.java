@@ -23,8 +23,8 @@ public class ProductDTO {
         id = product.getId();
         name = product.getName();
         price = product.getPrice();
-        for (Category categoryDTO : product.getCategories()) {
-            categories.add(new CategoryDTO(categoryDTO));
+        for (Category category : product.getCategories()) {
+            categories.add(new CategoryDTO(category));
         }
     }
 
